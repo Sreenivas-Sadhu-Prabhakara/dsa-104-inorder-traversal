@@ -12,6 +12,13 @@ The explicit stack holds the path of ancestors whose left side is done being des
 
 **Complexity:** O(n) time, O(h) stack (h = tree height).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
